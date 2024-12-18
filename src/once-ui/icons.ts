@@ -33,7 +33,8 @@ import {
 	FaDiscord,
 	FaGithub,
 	FaLinkedin,
-	FaXTwitter
+	FaXTwitter,
+	FaSquareInstagram
 } from "react-icons/fa6";
 
 export const iconLibrary: Record<string, IconType> = {
@@ -60,6 +61,7 @@ export const iconLibrary: Record<string, IconType> = {
 	home: PiHouseDuotone,
 	gallery: PiImageDuotone,
 	discord: FaDiscord,
+	instagram: FaSquareInstagram,
 	github: FaGithub,
 	linkedin: FaLinkedin,
 	x: FaXTwitter,
