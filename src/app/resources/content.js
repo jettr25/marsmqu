@@ -7,9 +7,9 @@ const person = {
         return `${this.firstName} ${this.lastName}`;
     },
     role:      'Design Engineer',
-    avatar:    '/images/avatar.jpg',
-    location:  'Asia/Jakarta',        // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
-    languages: ['English', 'Bahasa']  // optional: Leave the array empty if you don't want to display languages
+    avatar:    '/mars_logo3.png',
+    location:  'Sydney/Australia',        // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
+    languages: ['English']  // optional: Leave the array empty if you don't want to display languages
 }
 
 const newsletter = {
@@ -52,8 +52,8 @@ const home = {
 }
 
 const about = {
-    label: 'About',
-    title: 'About me',
+    label: 'Learn More',
+    title: 'Learn More',
     description: `Meet ${person.name}, ${person.role} from ${person.location}`,
     tableOfContent: {
         display: true,
