@@ -45,10 +45,10 @@ const social = [
 
 const home = {
     label: 'Home',
-    title: `${person.name}'s Portfolio`,
-    description: `Portfolio website showcasing my work as a ${person.role}`,
-    headline: <>Design engineer and builder</>,
-    subline: <>I'm Selene, a design engineer at <InlineCode>FLY</InlineCode>, where I craft intuitive<br/> user experiences. After hours, I build my own projects.</>
+    title: `${person.name} Rover`,
+    description: `A student team dedicated to designing and building advanced Mars and lunar rovers. We participate in the URC and ARC competitions, where our robots are tested in tasks like collecting scientific samples, navigating challenging terrain autonomously, and performing equipment maintenance.`,
+    headline: <>Exploring New Frontiers: Designing the Future</>,
+    subline: <>A student team is dedicated to designing and building advanced <InlineCode>Mars</InlineCode> and lunar rovers.<br/> We participate in the URC and ARC competitions.</>
 }
 
 const about = {
