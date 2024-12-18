@@ -48,7 +48,7 @@ const home = {
     title: `${person.name} Rover`,
     description:`A student team dedicated to designing and building advanced Mars and lunar rovers. We participate in the URC and ARC competitions, where our robots are tested in tasks like collecting scientific samples, navigating challenging terrain autonomously, and performing equipment maintenance.`,
     headline: <>Exploring New Frontiers: Designing the Future</>,
-    subline: <>A student team is dedicated to designing and building advanced <InlineCode>Mars</InlineCode> and lunar rovers.<br/> We participate in the URC and ARC competitions.</>
+    subline: <>A student team dedicated to designing and building advanced <InlineCode>Mars</InlineCode> and lunar rovers.<br/> Competing in the Australian Rover Competition 2025</>
 }
 
 const about = {
@@ -128,7 +128,7 @@ const about = {
                 // optional: leave the array empty if you don't want to display images
                 images: [
                     {
-                        src: '/images/projects/project-01/cover-02.jpg',
+                        src: '/images/rover.gif',
                         alt: 'Project image',
                         width: 16,
                         height: 9
