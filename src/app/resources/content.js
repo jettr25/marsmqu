@@ -134,7 +134,7 @@ const about = {
                         height: 9
                     },
                     {
-                        src: '/images/projects/project-01/cover-03.jpg',
+                        src: '/images/rover.gif',
                         alt: 'Project image',
                         width: 16,
                         height: 9
