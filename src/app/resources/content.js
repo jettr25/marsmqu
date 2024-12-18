@@ -53,7 +53,7 @@ const home = {
 
 const about = {
     label: 'About',
-    title: 'About me',
+    title: 'Learn More',
     description: `Meet ${person.name}, ${person.role} from ${person.location}`,
     tableOfContent: {
         display: true,
