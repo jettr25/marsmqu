@@ -115,7 +115,7 @@ export default function Home(
 												src={person.avatar}
 												size="m"/>
 											)}
-											{t("about.title")}
+											{t("Learn More")}
 											<Arrow trigger="#about"/>
 									</Flex>
 								</Button>
