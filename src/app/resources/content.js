@@ -6,7 +6,7 @@ const person = {
     get name() {
         return `${this.firstName} ${this.lastName}`;
     },
-    role:      'Design Engineer',
+    role:      'Macquarie Aerospace Rover Society',
     avatar:    '/images/mars.png',
     location:  'Australia/Sydney',        // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
     languages: ['English']  // optional: Leave the array empty if you don't want to display languages
@@ -32,9 +32,9 @@ const social = [
         link: 'https://www.linkedin.com/company/macquarie-aerospace-rover-society/',
     },
     {
-        name: 'X',
-        icon: 'x',
-        link: '',
+        name: 'Instagram',
+        icon: 'instagram',
+        link: 'https://www.instagram.com/mq_rover/',
     },
     {
         name: 'Email',
@@ -53,7 +53,7 @@ const home = {
 
 const about = {
     label: 'About',
-    title: 'Learn More',
+    title: 'About Us',
     description: `Meet ${person.name}, ${person.role} from ${person.location}`,
     tableOfContent: {
         display: true,
@@ -63,7 +63,7 @@ const about = {
         display: true
     },
     calendar: {
-        display: true,
+        display: false,
         link: 'https://cal.com'
     },
     intro: {
